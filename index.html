@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rumus Luas Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Katik</h1>
+        <h3>Kalkulator Matematik</h3>
+    </header>
+
+    <main>
+        <article>
+            <h3>Welcome!</h3>
+            <p>Selamat datang di Katik! Ini adalah website kalkulator untuk menghitung luas dan keliling persegi.</p>
+        </article>
+
+        <nav>
+            <a href="#luas">Luas Persegi</a><br>
+            <a href="#keliling">Keliling Persegi</a>
+        </nav>
+
+        <section id="luas" class="luas">
+            <h1>Luas Persegi</h1>
+
+            <figure>
+                <img src="https://i.pinimg.com/736x/77/48/8e/77488ecdb969c1e23e5642c152d283ed.jpg" alt="rumus persegi">
+            </figure>
+            <form id="luasForm">
+                <label for="sisiLuas">Masukkan nilai sisi persegi:</label>
+                <input type="number" id="sisiLuas" name="sisiLuas" required><br>
+                <button type="button" class="hitungButton" onclick="hitungLuas()">Hitung</button>
+            </form>
+            <div id="hasilLuas"></div>
+        </section>
+
+        <section id="keliling" class="keliling">
+            <h1>Keliling Persegi</h1>
+
+            <figure>
+                <img src="https://i.pinimg.com/736x/77/48/8e/77488ecdb969c1e23e5642c152d283ed.jpg" alt="rumus persegi">
+            </figure>
+            <form id="kelilingForm">
+                <label for="sisiKeliling">Masukkan nilai sisi persegi:</label>
+                <input type="number" id="sisiKeliling" name="sisiKeliling" required><br>
+                <button type="button" class="hitungButton" onclick="hitungKeliling()">Hitung</button>
+            </form>
+            <div id="hasilKeliling"></div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

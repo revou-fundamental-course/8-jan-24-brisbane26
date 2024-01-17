@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(100, 100, 234);
+    color: white;
+    padding: 10px;
+}
+
+#luasForm {
+    margin-bottom: 1rem;
+}
+
+.hitungButton {
+    margin: 0 auto;
+    display: block;
+}
+
+main {
+    border: solid rgb(81, 81, 229) 1px;
+}
+
