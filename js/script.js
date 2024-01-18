@@ -16,7 +16,7 @@ function hitungKeliling() {
     // Validasi apakah input adalah angka
     if (!isNaN(sisi) && sisi !== "") {
         let keliling = 4 * sisi;
-        document.getElementById("hasilKeliling").innerHTML = `K = 4 x S<br> L = 4 x ${sisi}<br> L = ${keliling}`;
+        document.getElementById("hasilKeliling").innerHTML = `K = 4 x S<br> K = 4 x ${sisi}<br> K = ${keliling}`;
     } else {
         alert("Masukkan nilai sisi persegi.");
     }
