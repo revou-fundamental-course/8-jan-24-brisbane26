@@ -3,6 +3,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
+    background: linear-gradient(to right, #ccb7eb, #8b69ea);
 }
 
 header {
@@ -24,9 +25,8 @@ header {
 
 .navbar a {
     display: inline-block;
-    margin: 0 15px; /* Sesuaikan dengan kebutuhan Anda */
+    margin: 0 15px; 
     text-decoration: none;
-    color: #333;
     font-weight: bold;
 }
 
@@ -37,11 +37,11 @@ article {
 #sisiLuas,
 #sisiKeliling {
     width: 100%;
-    box-sizing: border-box; /* Menyesuaikan padding dan border ke dalam lebar elemen */
-    padding: 8px; /* Sesuaikan dengan kebutuhan Anda */
+    box-sizing: border-box; 
+    padding: 8px; 
 }
 
-button {
+.hitungButton {
     background-color: rgb(58, 58, 239);
     color: white;
     padding: 10px;
@@ -51,8 +51,22 @@ button {
     cursor: pointer;
 }
 
-button:hover {
-    background-color: blue;
+.resetButton {
+    background-color: rgb(239, 179, 58);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.hitungButton:hover {
+    background-color: rgb(4, 4, 155);
+}
+
+.resetButton:hover {
+    background-color: rgb(203, 130, 27);
 }
 
 button:active {
@@ -68,4 +82,39 @@ button:active {
 main {
     border: solid rgb(81, 81, 229) 1px;
     padding: 5px;
+}
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+#luasForm,
+#kelilingForm {
+    text-align: center;
+}
+
+#luasForm button,
+#kelilingForm button {
+    margin-top: 10px;
+}
+
+#luasForm button,
+#kelilingForm button {
+    display: inline-block;
+    margin: 0 10px; 
+    margin-top: 10px;
+}
+
+#luasForm label,
+#kelilingForm label {
+    margin-bottom: 8px; 
+    display: block;
+}
+
+a {
+    border: solid rgb(130, 30, 223) 2px;
+    border-radius: 5px;
+    padding: 2px;
 }
